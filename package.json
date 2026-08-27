@@ -1,0 +1,12 @@
+{
+  "name": "n8n-pandastack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "n8n deployment on PandaStack",
+  "scripts": {
+    "start": "n8n start"
+  },
+  "dependencies": {
+    "n8n": "^1.123.0"
+  }
+}
