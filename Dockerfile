@@ -8,7 +8,8 @@ RUN apk add --no-cache \
     graphicsmagick \
     ghostscript
 
-RUN npm install -g n8n@1.123.0
+# Instala a versão mais recente disponível
+RUN npm install -g n8n@latest 
 
 ENV N8N_PORT=5678
 ENV N8N_LISTEN_ADDRESS=0.0.0.0
